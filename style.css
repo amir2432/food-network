@@ -1,0 +1,28 @@
+body{
+    font-family: font-family: 'Noto Sans TC', sans-serif;
+    margin: zero;
+}
+h1{
+    font-size: 70px;
+}
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 15%;
+}
+.half-width img{
+    width: 80%;
+    padding-left: 5%;
+}
+.link-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-image: linear-gradient(orange, yellow);
+    border: none;
+    border-radius: 4px;
+}
