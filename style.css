@@ -12,12 +12,13 @@ section{
     display: flex;
 }
 .half-width{
+    float: left;
     width: 50%;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .half-width img{
     width: 80%;
-    padding-left: 5%;
+    float: right;
 }
 .link-button{
     margin-top: 20px;
@@ -25,4 +26,19 @@ section{
     background-image: linear-gradient(orange, yellow);
     border: none;
     border-radius: 4px;
+}
+.center {
+    text-align: center;
+    margin-top: 40%;
+    margin-bottom: 0%;
+}
+.biography{
+    float: left;
+}
+.biography-img{
+    width:50%;
+    margin-left: 10%;
+}
+.about-me{
+    font-size: 20px;
 }
